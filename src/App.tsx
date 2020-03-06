@@ -1,10 +1,9 @@
 import React from 'react';
-import logo from './logo.svg';
 import './App.css';
 
-function App() {
+const App: React.FunctionComponent = () => {
   return (
-   
+   <h1>HELLO TS</h1>
   );
 }
 
