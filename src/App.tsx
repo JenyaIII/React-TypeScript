@@ -1,9 +1,15 @@
 import React from 'react';
 import './App.css';
+import Navbar from './components/NavBar';
 
 const App: React.FunctionComponent = () => {
   return (
-   <h1>HELLO TS</h1>
+  <>
+    <Navbar />
+    <div className="container">
+      <h1>TEST</h1>
+    </div>
+  </>
   );
 }
 
