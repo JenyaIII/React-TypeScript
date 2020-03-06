@@ -6,7 +6,7 @@ const TodoForm: React.FunctionComponent = () => {
     <div className="input-field mt2">
       <input type="text" id="title" placeholder="Todo" />
       <label htmlFor="title" className="active">
-        What todo today?
+        Add todo !?
       </label>
     </div>
   )
